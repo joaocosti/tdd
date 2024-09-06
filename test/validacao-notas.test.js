@@ -27,5 +27,13 @@ describe('Teste do metodo determinarAprovacao - Demais Casos', () => {
     });
 });
 
+describe('Teste do metodo determinarAprovacao - Casos excepcionais ', () => {
+    test('Frequência,Nota Final e Nota Especial negativos', () => {
+        expect(ALUNO.determinarAprovacao(-1, 80, 80)).toEqual('Reprovado');
+        expect(ALUNO.determinarAprovacao(75, -1, 80)).toEqual('Reprovado');
+        expect(ALUNO.determinarAprovacao(75, 80, -1)).toEqual('Reprovado');
+    });
+});
+
 
 
