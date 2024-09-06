@@ -1,6 +1,6 @@
 # Objetivo
 
-Criar um método e realizando os testes unitários utilizando TDD para um trabalho da PUC Minas
+Criar um método e realizar os testes unitários utilizando TDD para um trabalho da PUC Minas
 
 # Sobre o projeto
 
