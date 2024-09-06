@@ -22,5 +22,5 @@ Quais os requisitos?
 
 # Commits do tdd
 
-Para verificar cada passo do TDD clicar em na aba CODE e em seguida Commits
+Para revisar cada etapa do TDD, clique nos commits. Você encontrará toda a estrutura de criação do método e dos testes nesses registros.
 
