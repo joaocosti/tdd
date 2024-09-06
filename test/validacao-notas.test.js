@@ -16,4 +16,16 @@ describe('Teste do metodo determinarAprovacao - Casos Base', () => {
     });
 });
 
+describe('Teste do metodo determinarAprovacao - Demais Casos', () => {
+
+    test('Frequência > 75%, Nota Final < 60, mas média com Nota Especial >= 60', () => {
+        expect(ALUNO.determinarAprovacao(76, 50, 70)).toEqual('Aprovado');
+    });
+
+    test('Frequência > 75%, Nota Final < 60 e Média com Nota Especial < 60', () => {
+        expect(ALUNO.determinarAprovacao(76, 59, 59)).toEqual('Reprovado');
+    });
+});
+
+
 
