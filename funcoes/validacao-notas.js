@@ -1,6 +1,6 @@
 class Aluno {
-    determinarAprovacao(frequencia, notaFinal, notaEspecial) {
-       
+    determinarAprovacao(frequencia, notaFinal, NotaEspecial) {
+        return 0
     }
 }
 

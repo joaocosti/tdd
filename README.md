@@ -20,3 +20,7 @@ Quais os requisitos?
 * (NotaFinal+NotaEspecial)/2 >= 60 = Aprovado;
 * Qualquer parâmetro negativo = Reprovado.
 
+# Commits do tdd
+
+Para verificar cada passo do TDD clicar em na aba CODE e em seguida Commits
+
