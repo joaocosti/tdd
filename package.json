@@ -1,0 +1,23 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "Criar um método e realizando os testes unitários utilizando TDD para um trabalho da PUC Minas",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaocosti/tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaocosti/tdd/issues"
+  },
+  "homepage": "https://github.com/joaocosti/tdd#readme"
+}
